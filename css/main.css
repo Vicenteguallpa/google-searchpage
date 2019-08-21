@@ -1,0 +1,67 @@
+:root {
+    --white: #FFFFFF;
+    --gray-95-light: #F2F2F2;
+    --gray-89-light: #E4E4E4;
+    --blue-89-light: #DFE1E5;
+    --gray-39-light: #5F6368;
+    --black: #000000;
+}
+
+/* FONTS */
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTAINER */
+
+.container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* NAV */
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    height: 12.7vh;
+    width: 100vw;
+    border-bottom: 1px solid var(--gray-95-light);
+}
+
+#google_logo {
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    height: 30px;
+    width: 92px;
+}
+
+.options {
+    position: absolute;
+    bottom: 0;
+    left: 156px;
+    height: 40px;
+    width: 614px;
+}
+
+.options a {
+    position:absolute;
+    top: 10px;
+    font-size: small;
+    text-decoration: none;
+    color: var(--gray-39-light);
+}
+
+#tools {
+    right: 0;
+}
+
+#settings {
+    right: 55px;
+}
