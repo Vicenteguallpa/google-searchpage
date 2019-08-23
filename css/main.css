@@ -5,6 +5,7 @@
     --blue-89-light: #DFE1E5;
     --gray-39-light: #5F6368;
     --black: #000000;
+    --link-unvisited: #1A73E8;
 }
 
 /* FONTS */
@@ -58,10 +59,73 @@
     color: var(--gray-39-light);
 }
 
-#tools {
-    right: 0;
+#all {
+    width: 48px;
+    padding: 0 0 12px 10px;
+    border-bottom-style: solid;
+    color: var(--link-unvisited);
+}
+
+#all_logo {
+    height: 16px;
+    width: 16px;
+    margin: -1px 1px -3px 0;
+}
+
+#news {
+    left: 72px;
+}
+
+#news_logo {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px -1px 0;
+}
+
+#videos {
+    left: 149px;
+}
+
+#video_logo {
+    height: 14px;
+    width: 14px;
+    margin: 0 1px -2px 0;
+}
+
+#maps {
+    right: 329px;
+}
+
+#maps_logo {
+    height: 13px;
+    width: 13px;
+    margin-bottom: -1px;
+}
+
+#shopping {
+    right: 230px;
+}
+
+#shopping_logo {
+    height: 14px;
+    width: 14px;
+    margin: 0 2px -3px 0;
+}
+
+#more {
+    right: 165px;
+}
+
+#more_logo {
+    height: 10px;
+    width: 10px;
+    margin-right: -1px;
 }
 
 #settings {
     right: 55px;
+}
+
+#tools {
+    right: 0;
 }
