@@ -35,8 +35,11 @@
     border-bottom: 1px solid var(--gray-95-light);
 }
 
-#google_logo {
+.nav > img {
     position: absolute;
+}
+
+#google_logo {
     top: 28px;
     left: 30px;
     height: 30px;
@@ -128,4 +131,18 @@
 
 #tools {
     right: 0;
+}
+
+#apps {
+    height: 16px;
+    width: 16px;
+    top: 35px;
+    right: 97px;
+}
+
+#account {
+    height: 32px;
+    width: 32px;
+    top: 27px;
+    right: 44px;
 }
