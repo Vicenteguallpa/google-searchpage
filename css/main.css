@@ -10,7 +10,7 @@
 
 /* FONTS */
 
-.arial {
+.container * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -145,4 +145,37 @@
     width: 32px;
     top: 27px;
     right: 44px;
+}
+
+.search {
+    position: absolute;
+    background-color: var(--white);
+    border: 1px solid var(--blue-89-light);
+}
+
+#search_input {
+    padding: 3px 0 5px 20px; 
+    top: 20px;
+    left: 146px;
+    width: 570px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-right-style: none;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+#search_btn {
+    padding: 11px 16px 11px 4px;
+    top: 20px;
+    left: 737px;
+    width: 49px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-left-style: none;
+}
+
+#search_logo {
+    height: 19px;
+    width: 30px;
 }
