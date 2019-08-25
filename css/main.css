@@ -3,6 +3,7 @@
     --gray-95-light: #F2F2F2;
     --gray-89-light: #E4E4E4;
     --blue-89-light: #DFE1E5;
+    --gray-47-light: #777777;
     --gray-39-light: #5F6368;
     --black: #000000;
     --link-unvisited: #1A73E8;
@@ -178,4 +179,26 @@
 #search_logo {
     height: 19px;
     width: 30px;
+}
+
+/* SEARCH RESULTS */
+#search_results {
+    position: absolute;
+    top: 122px;
+    left: 150px;
+    height: 200px;
+    width: 80vw;
+    padding: 0;
+}
+
+#search_results * {
+    position: absolute;
+}
+
+#numerical_results {
+    top: 1px;
+    left: 16px;
+    font-size: 14px;;
+    text-decoration: none;
+    color: var(--gray-47-light);
 }
