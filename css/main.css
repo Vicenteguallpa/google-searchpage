@@ -198,7 +198,7 @@
     position: absolute;
 }
 
-#search_results > div > .search_link {
+.search_link {
     color: var(--search-link-unvisited);
     text-decoration: none;
     font-size: 20px;
@@ -229,11 +229,14 @@
     color: var(--gray-47-light);
 }
 
-#search_result_1 {
-    top: 50px;
+.search_result {
     left: 16px;
     height: 120px;
-    width: 585px;
+    width: 600px;
+}
+
+#search_result_1 {
+    top: 50px;
 }
 
 #url_1 {
@@ -241,5 +244,17 @@
 }
 
 #snippet_1 {
+    top: 37px;
+}
+
+#search_result_2 {
+    top: 194px;
+}
+
+#url_2 {
+    top: 30px;
+}
+
+#snippet_2 {
     top: 37px;
 }
