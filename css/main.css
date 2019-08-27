@@ -6,6 +6,7 @@
     --gray-47-light: #777777;
     --gray-39-light: #5F6368;
     --gray-33-light: #545454;
+    --gray-13-light: #222222;
     --black: #000000;
     --link-unvisited: #1A73E8;
     --search-link-unvisited: #1A0DAB;
@@ -247,4 +248,52 @@
 
 #search_result_3 {
     top: 316px;
+}
+
+#search_result_4 {
+    top: 900px;
+}
+
+/* SEARCH SUGGESTIONS*/
+#suggestions {
+    position: absolute;
+    top: 440px;
+    left: -4px;
+    height: 220px;
+    width: 638px;
+    border: 1px solid var(--blue-89-light);
+    border-radius: 8px;
+}
+
+.suggestion {
+    position: absolute;
+    height: 44px;
+    width: inherit;
+    color: var(--gray-13-light);
+    background-color: var(--white);
+    border-style: none;
+    border-top: 1px solid var(--blue-89-light);
+    font-size: 16px;
+}
+
+#suggestion_1 {
+    top: 44px;
+    padding-right: 358px;
+}
+
+#suggestion_2 {
+    top: 88px;
+    padding-right: 348px;
+}
+
+#suggestion_3 {
+    bottom: 44px;
+    padding-right: 323px;
+}
+
+#suggestion_4 {
+    bottom: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-right: 317px;
 }
