@@ -3,6 +3,7 @@
     --gray-95-light: #F2F2F2;
     --gray-89-light: #E4E4E4;
     --blue-89-light: #DFE1E5;
+    --gray-50-light: #808080;
     --gray-47-light: #777777;
     --gray-39-light: #5F6368;
     --gray-33-light: #545454;
@@ -363,11 +364,42 @@
     border-radius: 8px;
 }
 
-.videos {
+.video {
     height: 39%;
     width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+    border-style: none;
+}
+
+.video_link {
+    top: 131px;
+    left: 16px;
+    width: 140px;
+    text-decoration: none;
+    line-height: 1.375;
+}
+
+.sitename {
+    bottom: 19px;
+    left: 16px;
+    font-size: 14px;
+    color: var(--gray-50-light);
+}
+
+.video_meta_data {
+    bottom: 0;
+    font-size: 12px;
+}
+
+.hostsite {
+    left: 16px;
+    color: var(--url-green);
+}
+
+.publish_date {
+    left: 68px;
+    color: var(--gray-50-light);
 }
 
 #video_result_2 {
