@@ -27,7 +27,7 @@
     left: 0;
     top: 0;
     margin: 0;
-    height: 200vh;
+    height: 291.7vh;
     width: 100vw;
 }
 
@@ -253,7 +253,27 @@
 }
 
 #search_result_4 {
-    top: 900px;
+    top: 1098px;
+}
+
+#search_result_5 {
+    top: 1220px;
+}
+
+#search_result_6 {
+    top: 1342px;
+}
+
+#search_result_7 {
+    top: 1465px;
+}
+
+#search_result_8 {
+    top: 1587px;
+}
+
+#search_result_9 {
+    top: 1709px;
 }
 
 /* SEARCH SUGGESTIONS */
