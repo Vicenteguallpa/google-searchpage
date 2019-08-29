@@ -26,7 +26,7 @@
     left: 0;
     top: 0;
     margin: 0;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
 }
 
@@ -186,6 +186,7 @@
 }
 
 /* SEARCH RESULTS */
+
 #search_results {
     position: absolute;
     top: 122px;
@@ -254,7 +255,8 @@
     top: 900px;
 }
 
-/* SEARCH SUGGESTIONS*/
+/* SEARCH SUGGESTIONS */
+
 #suggestions {
     top: 440px;
     left: -4px;
@@ -335,4 +337,43 @@
     font-size: 12px;
     font-style: italic;
     margin-bottom: -20px;
+}
+
+/* VIDEO RESULTS */
+
+#video_results {
+    top: 706px;
+    height: 350px;
+    width: 631px;
+    padding: 0;
+}
+
+#video_header {
+    left: 16px;
+    color: var(--gray-13-light);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.video_result {
+    bottom: 0;
+    height: 84%;
+    width: 32.2%;
+    border: 1px solid var(--blue-89-light);
+    border-radius: 8px;
+}
+
+.videos {
+    height: 39%;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#video_result_2 {
+    left: 213px;
+}
+
+#video_result_3 {
+    right: 0;
 }
