@@ -26,9 +26,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    margin: 0;
-    height: 291.7vh;
-    width: 100vw;
+    height: 289.5vh;
+    width: 99.27vw;
 }
 
 /* NAV */
@@ -37,7 +36,7 @@
     display: inline-block;
     position: absolute;
     height: 12.7vh;
-    width: 100vw;
+    width: inherit;
     border-bottom: 1px solid var(--gray-95-light);
 }
 
@@ -143,14 +142,14 @@
     height: 16px;
     width: 16px;
     top: 35px;
-    right: 97px;
+    right: 83px;
 }
 
 #account {
     height: 32px;
     width: 32px;
     top: 27px;
-    right: 44px;
+    right: 30px;
 }
 
 .search {
