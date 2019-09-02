@@ -551,3 +551,40 @@
     height: 93px;
     right: 0;
 }
+
+/* RELATED INPUT */
+.related_input {
+    top: 2420px;
+    left: 166px;
+    height: 163px;
+    width: 400px;
+}
+
+.related_input_h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--gray-13-light);
+}
+
+#related_input a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--search-link-unvisited);
+}
+
+#related_input_1 {
+    top: 69px;
+}
+
+#related_input_2 {
+    top: 95px;
+}
+
+#related_input_3 {
+    top: 121px;
+}
+
+#related_input_4 {
+    bottom: 0;
+}
